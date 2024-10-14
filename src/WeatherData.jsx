@@ -2,31 +2,31 @@ import "./WeatherData.css"
 
 
 export default function WeatherData({ info = {} }) {
-    let secll = "/myWeather/img/" + info.weather + ".jpg";
+    let secll = "img/" + info.weather + ".jpg";
     let check = info.weather.toLowerCase();
-    let svgx = "/svg/sun.svg"
+    let svgx = "svg/sun.svg"
     if (check === "clear sky") {
-        svgx = "/svg/Clear Sky.svg"
+        svgx = "svg/Clear Sky.svg"
     } else if (check.includes("clouds")) {
-        svgx = "/svg/clouds.svg"
+        svgx = "svg/clouds.svg"
     } else if (check==="light rain") {
-        svgx = "/svg/rain.svg"
+        svgx = "svg/rain.svg"
     } else if (check==="moderate rain") {
-        svgx = "/svg/rain2.svg"
+        svgx = "svg/rain2.svg"
     }else if (check==="drizzle") {
-        svgx = "/svg/Drizzle.svg"
+        svgx = "svg/Drizzle.svg"
     }else if (check==="thunderstorm") {
-        svgx = "/svg/Thunderstorm.svg"
+        svgx = "svg/Thunderstorm.svg"
     }else if (check==="snow") {
-        svgx = "/svg/Snow.svg"
+        svgx = "svg/Snow.svg"
     }else if (check==="sand") {
-        svgx = "/svg/Dust.svg"
+        svgx = "svg/Dust.svg"
     }else if (check==="tornado") {
-        svgx = "/svg/Tornado.svg"
+        svgx = "svg/Tornado.svg"
     }else if (check==="ash") {
-        svgx = "/svg/Volcano.svg"
+        svgx = "svg/Volcano.svg"
     }else if (check==="dust"||check==="smoke") {
-        svgx = "/svg/Smoke.svg"
+        svgx = "svg/Smoke.svg"
     }
 
     return (
