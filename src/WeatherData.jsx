@@ -3,7 +3,7 @@ import "./WeatherData.css"
 
 export default function WeatherData({ info = {} }) {
     let check = info.weather.toLowerCase();
-    let secll = "img/" + check + ".jpg";
+    let secll = "./img/" + check + ".jpg";
     let svgx = "svg/sun.svg"
     if (check === "clear sky") {
         svgx = "svg/Clear Sky.svg"
