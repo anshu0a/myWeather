@@ -1,0 +1,21 @@
+.SearchBox{
+    width:100%;
+    max-width: 700px;
+}
+
+.SearchBox h1{
+    color:rgb(0, 41, 61);
+}
+.noresult{
+    color:rgb(172, 172, 172);
+    margin:40px 0 0 0;
+}
+
+.noresult+p{
+    color: rgba(0, 91, 136, 0.542);
+    margin:0;
+}
+.error{  margin:30px 0 0 0;
+    color:rgba(88, 1, 1, 0.477);
+    text-align: left;
+}

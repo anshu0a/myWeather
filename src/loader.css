@@ -1,0 +1,38 @@
+.outloader{
+    position: fixed;
+    top:0;
+    left:0;
+
+    background-color: rgba(20, 20, 20, 0.955);
+    color:rgb(255, 255, 255);
+    width:100vw;
+    height:100vh;
+    display:flex;
+    z-index: 2;
+    align-items: center;
+    justify-content: center;
+}
+.outloader p{
+    display:flex;
+    gap:2px;
+}
+ p > .city{
+    color: rgba(0, 221, 255, 0.945);
+ }
+.sp1{
+    animation: .5s linear 0s infinite alternate anim
+}
+.sp2{
+    animation: .7s linear 0s infinite alternate anim
+}
+.sp3{
+    animation: .9s linear 0s infinite alternate anim
+}
+@keyframes anim {
+    0% {
+      opacity: 0;
+    }
+    100% {
+      opacity:1;
+    }
+  }

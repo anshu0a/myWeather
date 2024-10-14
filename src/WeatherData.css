@@ -1,0 +1,41 @@
+.WeatherData {
+    padding: 10px;
+    text-align: left;
+}
+
+.WeatherData h2 {
+    margin: 10px 0 0 0;
+    color: rgb(0, 43, 83);
+}
+
+.WeatherData img {
+    user-select: none;
+    border-radius: 10px 10px 0 0;
+    width: 100%;
+    max-width: 600px;
+    object-fit: cover;
+    aspect-ratio: 2/1;
+}
+.WeatherData br{
+    user-select: none;
+}
+
+.WeatherData p {
+    color: rgb(0, 92, 0);
+    margin: 2px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.WeatherData p svg {
+    width: 16px;
+    aspect-ratio: 1/1;
+    padding-right: 4px;
+    fill: rgba(0, 0, 0, 0.801);
+}
+
+.WeatherData p b {
+    color: rgb(110, 110, 110);
+    padding-right: 5px;
+}
